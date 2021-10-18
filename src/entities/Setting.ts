@@ -17,7 +17,7 @@ class Setting {
   username: string;
 
   @Column()
-  chate: boolean;
+  chat: boolean;
 
   @UpdateDateColumn()
   updated_at: Date;
